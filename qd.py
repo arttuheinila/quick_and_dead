@@ -31,7 +31,7 @@ while True:
         else:
             print('I am going to need 0 or 1 from you.')
     except ValueError:
-        print("Ah, the audacity! That's not even a number. Please input either 0 or 1.")
+        print("Nope! That's not even a number. Please input either 0 or 1.")
 
 while True:
     question_resistance = input('Do you want varied resistance? 0 for NO, 1 for YES (default NO)')
